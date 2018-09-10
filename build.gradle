@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application' 
+ mainClassName = 'scandir.ScanDirApplication'
+
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+jar {
+  manifest { 
+     attributes 'Main-Class': 'scandir.ScanDirApplication'
+ }
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.10'
+}
