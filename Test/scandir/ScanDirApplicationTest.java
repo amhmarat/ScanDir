@@ -5,12 +5,12 @@
  */
 package scandir;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+//import org.junit.After;
+//import org.junit.AfterClass;
+//import org.junit.Before;
+//import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
 /**
  *
@@ -30,14 +30,5 @@ public class ScanDirApplicationTest {
         String[] args = {"c:\\Temp","-c:\\Temp\\Projects"};
         ScanDirApplication.main(args);
     }
-
-    /**
-     * Test of outListFiles method, of class ScanDirApplication.
-     */
-    @Test
-    public void testOutListFiles() throws Exception {
-        System.out.println("outListFiles");
-        ScanDirApplication.outListFiles();
-    }
-    
+  
 }
